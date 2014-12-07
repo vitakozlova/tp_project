@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<!DOCTYPE hibernate-configuration PUBLIC
+    "-//Hibernate/Hibernate Configuration DTD//EN"
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <!-- Model classes -->
+		<mapping class="bsu.fpmi.tp.model.Employee" />
+        <mapping class="bsu.fpmi.tp.model.Catalog" />
+        <mapping class="bsu.fpmi.tp.model.Demand" />
+        <mapping class="bsu.fpmi.tp.model.Inventory" />
+        <mapping class="bsu.fpmi.tp.model.Order" />
+        <mapping class="bsu.fpmi.tp.model.ProductList" />
+    </session-factory>
+</hibernate-configuration>
